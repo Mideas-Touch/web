@@ -5,11 +5,30 @@
     justify-content: space-between;
 }
 
+.Purpose-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Purpose-container h1 {
+    border-collapse: collapse;
+    font-family:"Space Grotesk", sans-serif;
+    color:#2549D3;
+    font-size: 24;
+}
+
+ .img1 {
+    float: right;
+    height: 550px !important;
+    width: 750px;
+}
+
 .Homepageicon {
-    padding: 20px;
-    font: helvetica;
+    font-family:"Oleo script", sans-serif;
+    font-size: larger;
     font-style: italic;
     font-weight: bold;
+    padding: 20px;
 }
 
 .Homebutton {
@@ -30,15 +49,6 @@
     Padding: 20px;
 }
 
-.Purpose-container {
-    display: flex;
-    flex-direction: column;
-}
-.flex-h1 {
-    color:#2549D3;
-    padding: 10px;
-}
-
 .Learn-more {
     display: flex;
 }
@@ -54,15 +64,15 @@
 
 .Loc-price {
     display: flex;
-    height: 200px;
+    background-color: aliceblue;
+    height: 50px;
     width: 1000px;
     justify-content: space-evenly;
     outline: 1px;
     outline-color: aliceblue;
-    margin: 80px;
-    border: 1px;
-    padding: 20 px;
-    box-shadow: 10px 10px 5px 12px lightblue;
+    margin: auto;
+    border: 1px rgb(153, 174, 177);
+    padding: 100 px;
 }
 
 .Loc {
