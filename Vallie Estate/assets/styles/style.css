@@ -1,3 +1,4 @@
+*{align-content: center;}
 .Vallie-container {
     display: flex;
     outline: 5px;
@@ -118,6 +119,35 @@
 .Loc {
     color:#2549D3;
     align-content: center;
+}
+
+.how_it_works h3 {
+    font-family:"Space Grotesk", sans-serif;
+    font-weight: bolder;
+    color: #2549D3;
+    font-size: 30;
+    margin-top: 0.5in;
+    padding: 10px;
+    border-right: 10px;
+}
+
+.how_it_works h4 {
+    position: absolute;
+    font-family:"Space Grotesk", sans-serif;
+    font-weight: bolder;
+    color: #2549D3;
+    font-size: 35;
+    margin-left: 8in;
+    margin-bottom: 8in;
+    padding-bottom: 8in;
+    border-right: 10px;  
+}
+
+.how_it_works p {
+    position: absolute;
+    color: grey;
+    margin-top: 40px;
+    margin-left: 7.5in;
 }
 
 
