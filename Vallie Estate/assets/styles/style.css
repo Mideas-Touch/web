@@ -1,6 +1,6 @@
 .Vallie-container {
     display: flex;
-    outline-width: 2px;
+    outline: 5px;
     outline-color: black;
     justify-content: space-between;
 }
@@ -11,16 +11,24 @@
 }
 
 .Purpose-container h1 {
-    border-collapse: collapse;
     font-family:"Space Grotesk", sans-serif;
     color:#2549D3;
-    font-size: 24;
+    font-size: 28pt;
+}
+.Purpose-container p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18pt;
 }
 
- .img1 {
-    float: right;
-    height: 550px !important;
+.img1 {
+    position: absolute;
+    height: 500px;
     width: 750px;
+    margin-left: 5in;
+    margin-right: 20px;
+    margin-bottom: 4in;
+    border-bottom: 4in;
+    padding-bottom: 4in;
 }
 
 .Homepageicon {
@@ -41,7 +49,7 @@
     border-radius: 10px;
     height: fit-content;
     width: fit-content;
-    border: 10px
+    border-top: 10px;
     margin: 2px;
     padding: 8px;
 }
@@ -53,30 +61,64 @@
     display: flex;
 }
 
-.Learn-more {
+.Learn-more h14 {
     background-color:#2549D3;
     border-radius: 10px;
+    border-right: 10px;
     height: fit-content;
     width: fit-content;
     margin: 2px;
     padding: 10px
 }
 
-.Loc-price {
-    display: flex;
-    background-color: aliceblue;
-    height: 50px;
-    width: 1000px;
-    justify-content: space-evenly;
-    outline: 1px;
-    outline-color: aliceblue;
-    margin: auto;
-    border: 1px rgb(153, 174, 177);
-    padding: 100 px;
+.Location, .Property-type, .Price, .Search-button {
+    color: #2549D3;
 }
 
+.Loc-price {
+    display: flex;
+    font-weight: 700;
+    background-color: aliceblue;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    border-top: 2in;
+    padding-top: 20px;
+}
+
+.Lekki {
+    position:absolute;
+    color:grey;
+    margin-top: 20px;
+    padding-right: 15in;  
+}
+
+.Duplex {
+    position: absolute;
+    color:grey;
+    margin-top: 20px;
+    padding-right: 5.3in;
+}
+
+.Price-fig {
+    position: absolute;
+    color: grey;
+    margin-top: 20px;
+    margin-left: 5in;
+}
+
+.Search-button {
+    background-color:#2549D3;
+    border-bottom: 1in;
+    border-radius: 10px;
+    height:30;
+    width:60px;
+    padding: 10px
+}
 .Loc {
     color:#2549D3;
     align-content: center;
 }
+
+
 
