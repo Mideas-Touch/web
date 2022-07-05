@@ -1,0 +1,50 @@
+.Vallie-container {
+    display: flex;
+    outline-width: 2px;
+    outline-color: black;
+    justify-content: space-between;
+}
+
+.Homepageicon {
+    padding: 20px;
+    font: helvetica;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Homebutton {
+    padding;20px;
+    color:blue;
+}
+
+.Startbutton {
+    background-color:#2549D3;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px
+    margin: 2px;
+    padding:10px;
+}
+.Purpose-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-h1 {
+    color:#2549D3;
+    padding: 10px;
+}
+
+.Learn-more {
+    display: flex;
+}
+
+.Learn-more {
+    background-color:#2549D3;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    margin: 2px;
+    padding: 10px
+}
+
