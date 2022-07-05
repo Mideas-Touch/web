@@ -52,3 +52,21 @@
     padding: 10px
 }
 
+.Loc-price {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    justify-content: space-evenly;
+    outline: 1px;
+    outline-color: aliceblue;
+    margin: 80px;
+    border: 1px;
+    padding: 20 px;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+.Loc {
+    color:#2549D3;
+    align-content: center;
+}
+
