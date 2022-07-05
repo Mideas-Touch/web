@@ -23,8 +23,8 @@
 
 .img1 {
     position: absolute;
-    height: 500px;
-    width: 750px;
+    height: 350px;
+    width: 600px;
     margin-left: 5in;
     margin-right: 20px;
     margin-bottom: 4in;
@@ -148,6 +148,11 @@
     color: grey;
     margin-top: 40px;
     margin-left: 7.5in;
+}
+
+.Logistics {
+    display: flex;
+    justify-content: space-between;
 }
 
 
