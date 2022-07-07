@@ -1,14 +1,15 @@
-*{align-content: center;}
 .Vallie-container {
     display: flex;
-    outline: 5px;
+    width: 50%
     outline-color: black;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .Purpose-container {
     display: flex;
     flex-direction: column;
+    width:100%;
+    box-sizing: border-box;
 }
 
 .Purpose-container h1 {
@@ -165,7 +166,7 @@
 }
 
 .imgloc {
-    position:absolute
+    position:absolute;
     height: 120px;
     width: 70px;
     margin: 5px;
@@ -174,6 +175,23 @@
 }
 
 .imgsecure {
+    position:absolute
+    height: 120px;
+    width: 70px;
+    margin: 5px;
+    padding: 20px;
+    border-left: 20px;
+}
+
+.imgsmarthouse { position:absolute
+    height: 120px;
+    width: 70px;
+    margin: 5px;
+    padding: 20px;
+    border-left: 20px;
+}
+
+.padlock {
     position:absolute
     height: 120px;
     width: 70px;

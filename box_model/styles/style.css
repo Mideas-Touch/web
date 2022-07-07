@@ -1,0 +1,122 @@
+.boxone {
+    max-width: 600px;
+    background-color: rgb(189, 100, 100);
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 100px;
+
+    
+}
+
+
+
+
+.boxtwo {
+    background-color: blueviolet;
+    max-width:550px;
+    max-height: 400px;
+    margin-top: 300px;
+
+}
+
+
+.img1 {
+    max-width: 300px;
+    max-height: 500px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+
+}
+
+.img3 {
+    max-width: 350px;
+    max-height: 400px;
+    margin-left: 300px;
+    margin-bottom: 60px;
+
+}
+
+.img3:hover {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.Findahome {
+    max-width: 5px;
+    max-height: 15px;
+    padding: 5px;
+    margin-left: 400px;
+    margin-bottom: 400px;
+}
+
+.imgsmarthouse {
+    max-width: 400px;
+    max-height: 300px;
+    margin-top: 50px;
+}
+
+p1  {
+    float: right;
+    font-style: "Helvetica", Sans-serif;
+    text-align: center;
+    text-indent: 10px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: rgb(121, 73, 165);
+}
+
+p2  {
+    float: left;
+    text-align: center;
+    text-indent: ;
+    font-style: "Helvetica", Sans-serif;
+    font-size: 20pt;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+
+
+h6  {
+    text-transform: uppercase;
+    line-height: 10px;
+    font-style: "Helvetica", Sans-serif;
+    padding: 10px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: rgb(121, 73, 165);
+    margin-left: 250px;
+    margin-top: 150px;
+}
+/*
+
+.textbox1  {
+    display: flex;
+    font-style: "Verdana", Sans-serif;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    font-size: 40px;
+    color:rgb(33, 58, 124)
+}
+
+.imgsmarthouse {
+
+}
+
+h5 {
+    
+}
+p {
+    position: absolute;
+    max-width: 8px;
+    font-style:"Space Grotesk", sans-serif;
+    font-size: large;
+
+}
+

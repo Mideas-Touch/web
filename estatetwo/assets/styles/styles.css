@@ -1,0 +1,104 @@
+.Vallie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    max-width: auto;
+    max-height: 1in;
+}
+
+.Homepageicon {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 24pt;
+    font-style: italic;
+    max-width: 250px;
+    max-height: 250px;
+    padding: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right:50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.Homebutton {
+    max-width: 300px;
+    max-height: 250px;
+    padding: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 19pt;
+    letter-spacing: 0.1em;
+    color: #2549D3
+
+}
+
+.Rentbutton {
+    max-width: 200px;
+    max-height: 20px;
+    padding: 35px;
+    margin-bottom: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18pt;
+    letter-spacing: 0.1em;
+}
+
+.Landbutton {
+    max-width: 200px;
+    max-height: 60px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    letter-spacing: 0.1em;
+}
+
+.Agentbutton {
+    max-width: 200px;
+    max-height: 250px;
+    padding: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    letter-spacing: 0.1em;
+}
+
+.Contacts {
+    max-width:auto;
+    max-height: 40px;
+    padding: 20px;
+    padding-right: 40px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    letter-spacing: 0.1em;
+}
+
+.Startbutton {
+    max-height: 80px;
+    max-width: auto;
+    background-color: #2549D3;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    font-size: 24pt;
+    letter-spacing: 0.2ems;
+}
+
+hr {
+    margin-bottom: 30px;
+  
+}
